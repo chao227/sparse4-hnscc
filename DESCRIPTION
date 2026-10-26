@@ -1,0 +1,10 @@
+
+Package: sparse4hnscc
+Type: Project
+Title: Reproducibility Project for an HNSCC Study
+Version: 1.0.0.9000
+Authors@R: person("Anonymous", "Authors", role = "aut")
+Description: Analysis code, scoring specifications, and aggregate outputs for an HNSCC study.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Imports: survival, glmnet, emmeans, edgeR, Seurat, CellChat, WGCNA, DESeq2, limma, lme4, lmerTest, ggplot2, data.table, jsonlite, yaml, here, clusterProfiler, fgsea, GSVA, SingleR, monocle3, GEOquery, survminer, pheatmap, patchwork, ComplexHeatmap
