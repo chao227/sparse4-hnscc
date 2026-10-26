@@ -1,0 +1,7 @@
+dataset,accession,platform,n_patients,role,source_url,download_date,version_note
+TCGA-HNSC,UCSC Xena TCGA-HNSC,bulk RNA sequencing,507,bulk WGCNA and score development,https://xenabrowser.net/datapages/,not recorded,520 primary tumours; 507 WGCNA and 476 survival-eligible patients
+GSE164690,GSE164690,single-cell RNA sequencing,18,single-cell descriptive analysis,https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE164690,not recorded,33 tumour fractions analysed; peripheral blood fractions excluded
+GSE208253,GSE208253,spatial transcriptomics,10,spatial Yellow and TLS context,https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE208253,not recorded,12 sections and 23882 retained spots
+GSE41613,GSE41613,microarray,97,post hoc full-score survival evaluation,https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE41613,not recorded,51 events and four of four score genes
+GSE65858,GSE65858,microarray,270,post hoc full-score survival evaluation,https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE65858,not recorded,94 events and four of four score genes
+GSE159067,GSE159067,RNA sequencing,102,exploratory partial-score treatment-response evaluation,https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE159067,not recorded,92 evaluable outcomes and two of four score genes
