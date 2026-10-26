@@ -1,0 +1,3 @@
+object	cells	donors	samples_or_fractions	observed_fraction_labels	pbl_or_blood_label_hits	scope_status	evidence_boundary
+whole annotated object	102117	18	33	CD45n;CD45p	0	CURRENT_OBJECT_METADATA_ONLY_INTRATUMORAL_CD45_SORTED_FRACTIONS_NO_PBL_LABEL	current metadata and verified sample contract identify 33 tumour CD45-sorted fractions with PBL excluded; the public source study also contains matched PBL samples that are not present here
+B-cell subcluster object	10572	18	33	CD45n;CD45p	0	CURRENT_OBJECT_METADATA_ONLY_INTRATUMORAL_CD45_SORTED_FRACTIONS_NO_PBL_LABEL	current metadata and verified sample contract identify 33 tumour CD45-sorted fractions with PBL excluded; the public source study also contains matched PBL samples that are not present here

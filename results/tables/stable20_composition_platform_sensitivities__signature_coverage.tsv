@@ -1,0 +1,4 @@
+signature	registered_n	covered_n	coverage_fraction	covered_genes	missing_genes	status
+simple_B_cell_naive	7	7	1.0	CD79A;CD79B;MS4A1;BANK1;PAX5;FCER2;CR2		PASS
+simple_B_cell_memory	5	4	0.8	CD27;AIM2;IGLC2;JCHAIN	SSPB1	PASS
+simple_plasma_cell	7	7	1.0	JCHAIN;MZB1;IGHG1;IGHA1;XBP1;SDC1;PRDM1		PASS

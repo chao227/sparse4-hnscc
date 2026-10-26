@@ -1,0 +1,17 @@
+variable	selection_group	total_n	observed_n	missing_n	missing_fraction	denominator_definition
+age_years	Included	320	320	0	0.0	locked group total
+age_years	Excluded	156	156	0	0.0	locked group total
+score_raw_linear_predictor	Included	320	320	0	0.0	locked group total
+score_raw_linear_predictor	Excluded	156	156	0	0.0	locked group total
+project_immune_ssGSEA	Included	320	320	0	0.0	locked group total
+project_immune_ssGSEA	Excluded	156	156	0	0.0	locked group total
+project_stromal_ssGSEA	Included	320	320	0	0.0	locked group total
+project_stromal_ssGSEA	Excluded	156	156	0	0.0	locked group total
+stage_factor	Included	320	320	0	0.0	locked group total
+stage_factor	Excluded	156	41	115	0.737179487179487	locked group total
+HPV_p16_3level	Included	320	320	0	0.0	locked group total
+HPV_p16_3level	Excluded	156	156	0	0.0	locked group total
+surgery_factor	Included	320	320	0	0.0	locked group total
+surgery_factor	Excluded	156	114	42	0.269230769230769	locked group total
+CDE3108203_subsite	Included	320	320	0	0.0	locked group total
+CDE3108203_subsite	Excluded	156	156	0	0.0	locked group total

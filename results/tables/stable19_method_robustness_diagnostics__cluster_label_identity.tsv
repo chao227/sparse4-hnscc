@@ -1,0 +1,6 @@
+selected_label_field	candidate_resolution_field	cells_compared	mismatch_cells	mismatch_fraction	exact_identity	historical_selection_rationale
+seurat_clusters	RNA_snn_res.0.3	102117	0	0.0	True	ABSENT_NOT_RECONSTRUCTABLE_AS_FACT
+seurat_clusters	RNA_snn_res.0.5	102117	15249	0.14932871118423	False	ABSENT_NOT_RECONSTRUCTABLE_AS_FACT
+seurat_clusters	RNA_snn_res.0.8	102117	84853	0.830939020926976	False	ABSENT_NOT_RECONSTRUCTABLE_AS_FACT
+seurat_clusters	RNA_snn_res.1	102117	76326	0.747436763712212	False	ABSENT_NOT_RECONSTRUCTABLE_AS_FACT
+seurat_clusters	RNA_snn_res.1.2	102117	86940	0.851376362407826	False	ABSENT_NOT_RECONSTRUCTABLE_AS_FACT

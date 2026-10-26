@@ -1,0 +1,5 @@
+procedure	quantity	estimate	variability_or_test	claim_boundary
+Previously specified lambda.min procedure; full-data fit retained 64 genes	20x10 repeat-level fold-pair-pooled Harrell C	0.6334813001775285	SD=0.009602078110	conditional on fixed Yellow/492 candidate scope
+Previously specified lambda.min procedure; full-data fit retained 64 genes	fixed five-fold observed statistic vs 499 permutations	0.638193776066731	empirical P=0.002	procedure-matched permutation; not transferable to sparse4
+Post hoc sparse4	20x5 repeat-level fold-pair-pooled Harrell C	0.612901390909983	SD=0.016187598262	conditional; scale-valid supporting repeat summary
+Post hoc sparse4	patient-mean repeated-CV ensemble Harrell C	0.624308865586273	point estimate; no sparse4 permutation null	ensemble estimand, not one future fitted model

@@ -1,0 +1,2 @@
+eligible_cohorts	k	total_n	total_events	direction_concordant_all_HR_gt_1	fixed_effect_log_HR	fixed_effect_HR	fixed_effect_CI95_lower	fixed_effect_CI95_upper	Cochran_Q	Q_df	Q_p	I2_percent	random_effect_not_promoted	claim_boundary
+GSE41613;GSE65858	2	367	145	True	0.194901152989135	1.21519086256849	1.02218584598591	1.44463830943155	0.805076176733205	1	0.369579996486642	0	True	two-cohort post hoc descriptive sensitivity; cannot isolate platform effect or establish validation

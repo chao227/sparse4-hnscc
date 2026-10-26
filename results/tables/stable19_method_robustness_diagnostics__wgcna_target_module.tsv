@@ -1,0 +1,2 @@
+candidate_field	candidate_values	network_casefold_matches	resolution_rule	status
+historical_module	Yellow	yellow	unique case-insensitive exact label match between frozen candidate provenance and authoritative legacy network colors	PASS

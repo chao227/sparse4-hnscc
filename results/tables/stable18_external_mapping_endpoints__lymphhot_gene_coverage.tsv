@@ -1,0 +1,4 @@
+cohort	CD79A_available	IKZF1_available	mapping_basis	selected_feature_CD79A	selected_feature_IKZF1	disposition	reason
+GSE41613	True	True	hgu133plus2.db exact SYMBOL reverse map	1555779_a_at	227346_at	EVALUABLE_EXPLORATORY	Both genes mapped
+GSE65858	True	True	illuminaHumanv4.db exact SYMBOL reverse map	ILMN_1734878	ILMN_1676575	EVALUABLE_EXPLORATORY	Both genes mapped
+GSE159067	True	False	exact gene-symbol row name	CD79A		NOT_FEASIBLE_WITH_EVIDENCE	IKZF1 is absent; no proxy substitution permitted

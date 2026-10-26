@@ -1,0 +1,3 @@
+signature	release	systematic_name	registered_n	covered_n	coverage_fraction	missing_genes	coverage_gate	status
+HALLMARK_HYPOXIA	MSigDB v2026.1.Hs	M5891	200	195	0.975	BRS3;GAPDHS;LALBA;MIF;PGAM2	>=0.70	PASS
+BUFFA_HYPOXIA_METAGENE	MSigDB v2026.1.Hs	M34030	50	49	0.98	MIF	>=0.70	PASS

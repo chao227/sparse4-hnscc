@@ -1,0 +1,19 @@
+family_id	analysis	family_members	correction	timing_or_status	claim_boundary	primary_report_location
+F01	donor-aware B-state differential expression	gene-by-state tests	BH	registered revision analysis	inferential within family	Fig.2G; Methods
+F02	Yellow enrichment across provisional B states	5 state tests	BH	registered revision analysis	inferential within family	Fig.2G; Methods
+F03	complete-score external overall-survival evaluation	2 FULL cohorts	BH	post hoc; cohorts inspected before model lock	external evaluation, not validation	STable12; STable18
+F04	sparse4-hypoxia expression correlations	10 gene/score-by-signature tests	BH	registered post hoc sensitivity	same-cohort sensitivity	STable13
+F05	continuous functional-form diagnostics	4 planned tests; feasibility gate applied	BH	registered before formal diagnostic run	negative tests do not prove linearity	STable19
+F06	HPV relationship of sparse4 and four components	5 tests	BH	registered descriptive analysis	same-cohort description	STable19 HPV_score_gene_associations
+F07	paired-donor IKZF1 gene contrasts	6 genes	BH	registered exploratory analysis	association, not mechanism	Fig.7B source table
+F08	IKZF1 regulon state contrasts	15 pairwise contrasts after one global test	Tukey	registered patient-level analysis	method-dependent patient analysis	Fig.5A source table
+F09	LymphHot-versus-other sparse4 contrasts	3 prespecified contrasts	Holm	registered exploratory analysis	same-cohort description	Fig.5F source table
+F10	incremental delta-C comparisons	2 comparisons	Holm	registered same-cohort analysis	apparent performance	SFig.2G source table
+F11	marker-model delta-C comparisons	4 comparisons	Holm	registered same-cohort analysis	apparent performance	SFig.2H source table
+F12	LymphHot immune-feature comparisons	4 features	Holm	registered exploratory analysis	same-cohort description	Fig.5G source table
+F13	checkpoint-expression group comparisons	6 genes	BH	registered exploratory analysis	same-cohort description	Fig.6B source table
+F14	LymphHot external overall-survival evaluation	2 evaluable cohorts	BH	post hoc rule reapplication	external evaluation, not validation	STable11
+F15	patient-level Yellow-TLS10 primary spatial direction	1 exact primary test	none; single exact test	registered primary spatial test	patient-level association	STable7; STable14
+F16	CellChat direction-by-pathway endpoints	144 descriptive endpoints	no inferential P values	descriptive by design	not a cross-patient test family	Fig.1G; Methods
+F17	revision primary survival family	sparse4 M1, sparse4 M4 and LymphHot M4	Holm	registered family restored; all estimates remain post-selection	descriptive apparent estimates, not confirmatory inference	Main Table2; STable19 revision_primary_3
+F18	formal LymphHot continuous and binary comparisons	5 prespecified Wald/LR tests	Holm	registered exploratory analysis	null incremental evidence does not prove equivalence	STable10b

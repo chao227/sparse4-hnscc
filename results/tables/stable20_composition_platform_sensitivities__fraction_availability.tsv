@@ -1,0 +1,2 @@
+atomic_requirement	disposition	reason	secondary_result	substitution_used	claim_boundary
+R1.11.01	NOT_FEASIBLE_WITH_EVIDENCE	No guarded accepted TCGA source supplies both patient-level B-cell and plasma-cell proportions; EPIC/TRef lacks plasma fractions and was not formally run; official CIBERSORT/CIBERSORTx/LM22 assets are unavailable	15-test BH family against three fixed expression signatures retained as descriptive alternative	False	expression enrichment is not a cell proportion and cannot establish cell specificity

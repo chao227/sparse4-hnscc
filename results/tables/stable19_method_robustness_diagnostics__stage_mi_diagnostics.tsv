@@ -1,0 +1,2 @@
+pre_gate	n	events	stage_missing	imputations	iterations	seed	imputed_variables	logged_events	max_abs_autocorrelation_last5	max_abs_psrf_minus_1_last5	backend_status	lme4_Matrix_ABI_match	abi_disposition	convergence_gate_status	gate_rule
+PASS	434	184	114	20	20	66001	stage_factor	0	0.0348103425423022	0.0135369380746084	PASS_EXACT_LOGREG_BACKEND	False	MISMATCH_NOT_IN_STAGE_LOGREG_EXECUTION_PATH	PASS	exact glm.fit logreg backend; finite chains; last5 |AC|<=0.50; last5 |PSRF-1|<=0.10; zero logged events

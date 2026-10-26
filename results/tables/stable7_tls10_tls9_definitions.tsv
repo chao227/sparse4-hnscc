@@ -1,0 +1,20 @@
+signature	gene_symbol	weight	definition
+TLS10	CXCL13	1.0	unweighted mean of log1p(CPM10000) expression within each section; no section-wise gene z-scaling
+TLS10	CCL19	1.0	unweighted mean of log1p(CPM10000) expression within each section; no section-wise gene z-scaling
+TLS10	CCL21	1.0	unweighted mean of log1p(CPM10000) expression within each section; no section-wise gene z-scaling
+TLS10	LTB	1.0	unweighted mean of log1p(CPM10000) expression within each section; no section-wise gene z-scaling
+TLS10	LTA	1.0	unweighted mean of log1p(CPM10000) expression within each section; no section-wise gene z-scaling
+TLS10	CXCR5	1.0	unweighted mean of log1p(CPM10000) expression within each section; no section-wise gene z-scaling
+TLS10	CCR7	1.0	unweighted mean of log1p(CPM10000) expression within each section; no section-wise gene z-scaling
+TLS10	CD79A	1.0	unweighted mean of log1p(CPM10000) expression within each section; no section-wise gene z-scaling
+TLS10	ICAM1	1.0	unweighted mean of log1p(CPM10000) expression within each section; no section-wise gene z-scaling
+TLS10	VCAM1	1.0	unweighted mean of log1p(CPM10000) expression within each section; no section-wise gene z-scaling
+TLS9_CD79A_excluded	CXCL13	1.0	unweighted mean of log1p(CPM10000) expression within each section; no section-wise gene z-scaling
+TLS9_CD79A_excluded	CCL19	1.0	unweighted mean of log1p(CPM10000) expression within each section; no section-wise gene z-scaling
+TLS9_CD79A_excluded	CCL21	1.0	unweighted mean of log1p(CPM10000) expression within each section; no section-wise gene z-scaling
+TLS9_CD79A_excluded	LTB	1.0	unweighted mean of log1p(CPM10000) expression within each section; no section-wise gene z-scaling
+TLS9_CD79A_excluded	LTA	1.0	unweighted mean of log1p(CPM10000) expression within each section; no section-wise gene z-scaling
+TLS9_CD79A_excluded	CXCR5	1.0	unweighted mean of log1p(CPM10000) expression within each section; no section-wise gene z-scaling
+TLS9_CD79A_excluded	CCR7	1.0	unweighted mean of log1p(CPM10000) expression within each section; no section-wise gene z-scaling
+TLS9_CD79A_excluded	ICAM1	1.0	unweighted mean of log1p(CPM10000) expression within each section; no section-wise gene z-scaling
+TLS9_CD79A_excluded	VCAM1	1.0	unweighted mean of log1p(CPM10000) expression within each section; no section-wise gene z-scaling

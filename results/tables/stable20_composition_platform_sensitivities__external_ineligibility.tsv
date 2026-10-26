@@ -1,0 +1,3 @@
+cohort	disposition	reason
+TCGA-HNSC	INELIGIBLE	development cohort; not an external evaluation
+GSE159067	INELIGIBLE	PARTIAL 2/4 score; not the same complete-score estimand

@@ -1,0 +1,6 @@
+test_id	estimand	statistic	df	p_nominal	family	family_size	correction	p_holm
+M_additive_CD79A_Wald	CD79A per-SD effect adjusted for continuous IKZF1	-2.49254377283533	1	0.0126831696132416	LYMPHHOT_FORMAL_FIVE	5	Holm	0.0507326784529664
+M_additive_IKZF1_Wald	IKZF1 per-SD effect adjusted for continuous CD79A	-0.783503333397778	1	0.433331596979981	LYMPHHOT_FORMAL_FIVE	5	Holm	0.986978167373332
+M_interaction_vs_M_additive_LRT	incremental continuous CD79A-by-IKZF1 interaction	0.952858634144377	1	0.328992722457777	LYMPHHOT_FORMAL_FIVE	5	Holm	0.986978167373332
+M_LymphHot_vs_null_LRT	binary median-defined LymphHot global association	11.6539781043762	1	0.0006406538712838	LYMPHHOT_FORMAL_FIVE	5	Holm	0.003203269356419
+M_additive_plus_LymphHot_vs_M_additive_LRT	incremental median-defined LymphHot term beyond additive continuous CD79A and IKZF1	0.0310696472515701	1	0.860085095540772	LYMPHHOT_FORMAL_FIVE	5	Holm	0.986978167373332

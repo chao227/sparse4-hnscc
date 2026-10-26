@@ -1,0 +1,3 @@
+hpv_level	n	events	gate_rule	gate_status	planned_estimand
+Negative	62	24	each known HPV stratum >=20 patients and >=10 events	NOT_FEASIBLE_WITH_EVIDENCE	score_per_global_sd_by_HPV_interaction_on_OS
+Positive	36	4	each known HPV stratum >=20 patients and >=10 events	NOT_FEASIBLE_WITH_EVIDENCE	score_per_global_sd_by_HPV_interaction_on_OS

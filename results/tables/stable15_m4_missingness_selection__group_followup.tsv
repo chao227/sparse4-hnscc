@@ -1,0 +1,3 @@
+selection_group	n	events	censored	event_fraction	reverse_km_median_followup_months	reverse_km_ci_lower_95	reverse_km_ci_upper_95	method
+Included	320	106	214	0.33125	31.9316688567674	29.2049934296978	37.3850197109067	reverse Kaplan-Meier; censoring indicator=1-OS_status
+Excluded	156	114	42	0.730769230769231	48.5545335085414	40.2102496714849		reverse Kaplan-Meier; censoring indicator=1-OS_status

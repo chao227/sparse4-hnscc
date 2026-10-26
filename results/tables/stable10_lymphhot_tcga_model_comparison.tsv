@@ -1,0 +1,8 @@
+model_id	n	events	model_df	log_likelihood	AIC	apparent_c	comparable_pairs	delta_AIC_vs_additive	AIC_improvement_over_additive	interpretation
+M_CD79A	476	220	1	-1176.68092666291	2355.36185332581	0.603972036860502	62940	-1.38700781251237	1.38700781251237	Descriptive same-cohort apparent comparison; not out-of-sample performance
+M_IKZF1	476	220	1	-1179.51404089033	2361.02808178066	0.572036860502065	62940	4.27922064233644	-4.27922064233644	Descriptive same-cohort apparent comparison; not out-of-sample performance
+M_additive	476	220	2	-1176.37443056916	2356.74886113832	0.603813155386082	62940	0.0	0.0	Descriptive same-cohort apparent comparison; not out-of-sample performance
+M_interaction	476	220	3	-1175.89800125209	2357.79600250418	0.607689863361932	62940	1.04714136585562	-1.04714136585562	Descriptive same-cohort apparent comparison; not out-of-sample performance
+M_LymphHot	476	220	1	-1179.99502967407	2361.99005934813	0.570297108357166	62940	5.24119820980923	-5.24119820980923	Descriptive same-cohort apparent comparison; not out-of-sample performance
+M_additive_plus_LymphHot	476	220	3	-1176.35889574554	2358.71779149107	0.604416904988878	62940	1.96893035274843	-1.96893035274843	Descriptive same-cohort apparent comparison; not out-of-sample performance
+M_quadrant_ancillary	476	220	3	-1179.55321079478	2365.10642158956	0.579758500158882	62940	8.35756045124208	-8.35756045124208	Descriptive same-cohort apparent comparison; not out-of-sample performance

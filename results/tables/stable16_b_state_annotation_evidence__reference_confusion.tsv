@@ -1,0 +1,36 @@
+locked_state	compact_reference	cells	state_cells	fraction_within_locked_state
+Naive B	Naive reference	1601	2407	0.665143331948484
+Naive B	Memory reference	135	2407	0.0560864146240133
+Naive B	GC reference	54	2407	0.0224345658496053
+Naive B	Immature reference	452	2407	0.187785625259659
+Naive B	Plasma reference	25	2407	0.010386373078521
+Naive B	Other reference	137	2407	0.056917324470295
+Naive B	<PRUNED>	3	2407	0.0012463647694225
+Memory B	Naive reference	284	1789	0.158747903856903
+Memory B	Memory reference	910	1789	0.508664058133035
+Memory B	GC reference	15	1789	0.0083845723868082
+Memory B	Immature reference	233	1789	0.130240357741755
+Memory B	Plasma reference	50	1789	0.0279485746226942
+Memory B	Other reference	295	1789	0.164896590273896
+Memory B	<PRUNED>	2	1789	0.0011179429849077
+GC-like B	Naive reference	325	1398	0.232474964234621
+GC-like B	Memory reference	555	1398	0.396995708154506
+GC-like B	GC reference	25	1398	0.0178826895565093
+GC-like B	Immature reference	149	1398	0.106580829756795
+GC-like B	Plasma reference	5	1398	0.0035765379113018
+GC-like B	Other reference	338	1398	0.241773962804006
+GC-like B	<PRUNED>	1	1398	0.0007153075822603
+Transitional B	Naive reference	498	1786	0.278835386338186
+Transitional B	Memory reference	584	1786	0.326987681970885
+Transitional B	GC reference	141	1786	0.0789473684210526
+Transitional B	Immature reference	259	1786	0.14501679731243
+Transitional B	Plasma reference	3	1786	0.0016797312430011
+Transitional B	Other reference	299	1786	0.167413213885778
+Transitional B	<PRUNED>	2	1786	0.0011198208286674
+Plasma cell	Naive reference	105	3192	0.0328947368421053
+Plasma cell	Memory reference	608	3192	0.19047619047619
+Plasma cell	GC reference	89	3192	0.0278822055137845
+Plasma cell	Immature reference	109	3192	0.0341478696741855
+Plasma cell	Plasma reference	1493	3192	0.467731829573935
+Plasma cell	Other reference	770	3192	0.241228070175439
+Plasma cell	<PRUNED>	18	3192	0.0056390977443609

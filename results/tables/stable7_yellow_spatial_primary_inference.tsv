@@ -1,0 +1,2 @@
+analysis	n_independent_patients	n_sections	mean_patient_rho	median_patient_rho	minimum_patient_rho	maximum_patient_rho	positive_patients	negative_patients	zero_patients	exact_signflip_extreme_assignments	exact_signflip_total_assignments	exact_signflip_two_sided_p	formal_test_family
+primary kME-weighted Yellow activity versus TLS10	10	12	0.241832038206	0.163396498065	0.0983372599651	0.542088046266	10	0	0	2	1024	0.001953125	one prespecified primary test only

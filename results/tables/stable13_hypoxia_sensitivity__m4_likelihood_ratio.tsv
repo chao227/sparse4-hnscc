@@ -1,0 +1,3 @@
+model_id	added_term	n	events	base_loglik	augmented_loglik	lr_chisq	added_df	p_nominal	delta_AIC_base_minus_augmented	multiplicity	claim_boundary
+M4_PLUS_HALLMARK	hallmark_hypoxia_per_m4_sd	320	106	-517.088662497951	-516.447735279856	1.28185443618918	1	0.257554518821459	-0.718145563810822	none; two registered post hoc sensitivities reported separately	descriptive nested-model comparison; not confirmatory
+M4_PLUS_BUFFA	buffa_hypoxia_per_m4_sd	320	106	-517.088662497951	-516.701350058575	0.774624878750046	1	0.378790100796557	-1.22537512124995	none; two registered post hoc sensitivities reported separately	descriptive nested-model comparison; not confirmatory

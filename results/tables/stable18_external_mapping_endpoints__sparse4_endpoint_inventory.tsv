@@ -1,0 +1,4 @@
+cohort	n	unique_patients	eligible_n	events	coverage_class
+GSE159067	102	102	102	92	PARTIAL
+GSE41613	97	97	97	51	FULL
+GSE65858	270	270	270	94	FULL

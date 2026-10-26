@@ -1,0 +1,11 @@
+variable	level	included_count	included_observed_n	included_fraction	excluded_count	excluded_observed_n	excluded_fraction	smd_excluded_minus_included	smd_definition
+stage_factor	I_II	75	320	0.234375	13	41	0.317073170731707	0.185854744902351	level-specific difference in proportions divided by pooled Bernoulli SD
+stage_factor	III_IV	245	320	0.765625	28	41	0.682926829268293	-0.185854744902351	level-specific difference in proportions divided by pooled Bernoulli SD
+HPV_p16_3level	Negative	44	320	0.1375	18	156	0.115384615384615	-0.0665798799082421	level-specific difference in proportions divided by pooled Bernoulli SD
+HPV_p16_3level	Positive	20	320	0.0625	16	156	0.102564102564103	0.145983068113888	level-specific difference in proportions divided by pooled Bernoulli SD
+HPV_p16_3level	Unknown	256	320	0.8	122	156	0.782051282051282	-0.0441567880345466	level-specific difference in proportions divided by pooled Bernoulli SD
+surgery_factor	No	241	320	0.753125	59	114	0.517543859649123	-0.504779417827982	level-specific difference in proportions divided by pooled Bernoulli SD
+surgery_factor	Yes	79	320	0.246875	55	114	0.482456140350877	0.504779417827982	level-specific difference in proportions divided by pooled Bernoulli SD
+CDE3108203_subsite	Larynx_Hypopharynx	68	320	0.2125	46	156	0.294871794871795	0.190162036640179	level-specific difference in proportions divided by pooled Bernoulli SD
+CDE3108203_subsite	OralCavity	214	320	0.66875	76	156	0.487179487179487	-0.374011006534867	level-specific difference in proportions divided by pooled Bernoulli SD
+CDE3108203_subsite	Oropharynx	38	320	0.11875	34	156	0.217948717948718	0.26747260331719	level-specific difference in proportions divided by pooled Bernoulli SD

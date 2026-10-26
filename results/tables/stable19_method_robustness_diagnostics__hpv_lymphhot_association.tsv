@@ -1,0 +1,2 @@
+test	n	events	groups	hpv_levels	p_value	claim_ceiling
+Fisher_exact_four_category_by_known_HPV	98	28	4	2	0.0647059402206792	SAME_COHORT_DESCRIPTIVE_ASSOCIATION

@@ -1,0 +1,11 @@
+predictor	hypoxia_signature	n	spearman_rho	p_nominal	p_bh_10	multiplicity_family	claim_boundary
+sparse4_score	HALLMARK_HYPOXIA	476	0.251237750313631	2.75529673774328e-08	3.93613819677612e-08	HYPOXIA_SPEARMAN_10	post hoc same-cohort descriptive association; not specificity or causality
+sparse4_score	BUFFA_HYPOXIA_METAGENE	476	0.490844758956214	3.1407618614406e-30	3.1407618614406e-29	HYPOXIA_SPEARMAN_10	post hoc same-cohort descriptive association; not specificity or causality
+CAMK2N1	HALLMARK_HYPOXIA	476	0.366726027054317	1.3412803932525799e-16	3.35320098313146e-16	HYPOXIA_SPEARMAN_10	post hoc same-cohort descriptive association; not specificity or causality
+CAMK2N1	BUFFA_HYPOXIA_METAGENE	476	0.381282952108351	6.4265586331320895e-18	2.14218621104403e-17	HYPOXIA_SPEARMAN_10	post hoc same-cohort descriptive association; not specificity or causality
+MASP1	HALLMARK_HYPOXIA	476	-0.0587390785509835	0.200801742455776	0.200801742455776	HYPOXIA_SPEARMAN_10	post hoc same-cohort descriptive association; not specificity or causality
+MASP1	BUFFA_HYPOXIA_METAGENE	476	-0.156060740085508	0.0006335041014612	0.0007918801268265	HYPOXIA_SPEARMAN_10	post hoc same-cohort descriptive association; not specificity or causality
+MIR9-3HG	HALLMARK_HYPOXIA	476	-0.333960984592447	7.2691110230889e-14	1.21151850384815e-13	HYPOXIA_SPEARMAN_10	post hoc same-cohort descriptive association; not specificity or causality
+MIR9-3HG	BUFFA_HYPOXIA_METAGENE	476	-0.343731582007182	1.20067329590673e-14	2.4013465918134503e-14	HYPOXIA_SPEARMAN_10	post hoc same-cohort descriptive association; not specificity or causality
+MS4A1	HALLMARK_HYPOXIA	476	-0.151613798769638	0.0009055815570153	0.0010062017300171	HYPOXIA_SPEARMAN_10	post hoc same-cohort descriptive association; not specificity or causality
+MS4A1	BUFFA_HYPOXIA_METAGENE	476	-0.47428887434564	4.52733123624534e-28	2.2636656181226698e-27	HYPOXIA_SPEARMAN_10	post hoc same-cohort descriptive association; not specificity or causality

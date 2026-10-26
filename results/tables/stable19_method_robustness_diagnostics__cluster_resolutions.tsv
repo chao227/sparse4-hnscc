@@ -1,0 +1,6 @@
+resolution_field	provenance_order	full_cells	full_clusters	subset_cells	subset_clusters
+RNA_snn_res.0.3	1	102117	20	10572	2
+RNA_snn_res.0.5	2	102117	26	10572	8
+RNA_snn_res.0.8	3	102117	33	10572	12
+RNA_snn_res.1	4	102117	37	10572	7
+RNA_snn_res.1.2	5	102117	40	10572	11
