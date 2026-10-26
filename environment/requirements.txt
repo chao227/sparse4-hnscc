@@ -1,0 +1,17 @@
+
+anndata==0.11.4
+joblib==1.5.3
+lifelines==0.30.0
+matplotlib==3.10.8
+networkx==3.4.2
+numpy==2.2.5
+openpyxl==3.1.5
+pandas==2.3.3
+pyarrow==23.0.1
+pyscenic==0.12.1
+PyYAML==6.0.3
+scanpy==1.11.5
+scikit-learn==1.7.2
+scipy==1.15.3
+seaborn==0.13.2
+statsmodels==0.14.6
