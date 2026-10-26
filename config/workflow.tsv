@@ -1,0 +1,26 @@
+order	script	role	default_full_run	depends_on
+0	scripts/00_setup_and_download.R	data-layout validation	true	data/accessions.csv
+1	scripts/01_scrna_qc.R	single-cell QC	true	GSE164690 raw files
+2	scripts/02_scrna_integration.R	single-cell integration	true	step 1
+3	scripts/03_scrna_annotation.R	broad cell annotation	true	step 2
+4	scripts/04_bcell_cd8_states.R	B-lineage and CD8 states	true	step 3
+5	scripts/05_bcell_cross_sectional_ordering.R	cross-sectional ordering	true	step 4
+6	scripts/06_cellchat_donor_descriptive.R	donor-separated communication	true	step 3 and CellChat registries
+7	scripts/07_tcga_wgcna_yellow.R	TCGA WGCNA	true	TCGA expression and traits
+8	scripts/08_yellow_module_context.R	Yellow-module context	true	steps 4 and 7
+9	scripts/09_sparse4_construction.R	post hoc sparse4 construction	true	step 7 and survival roster
+10	scripts/10_sparse4_score.R	locked score implementation	true	step 9
+11	scripts/11_sparse4_internal_validation.R	conditional fixed-OOF evaluation	true	step 9 held-out predictions
+12	scripts/12_objective64_internal_validation.R	separate secondary procedure	false	TCGA expression and survival roster
+13	scripts/13_survival_models_m1_m4.R	common-roster survival models	true	step 10 and clinical data
+14	scripts/14_calibration_nonbootstrap.R	apparent calibration	true	step 13
+15	scripts/15_external_cohorts.R	post hoc external evaluation	true	step 10 and external data
+16	scripts/16_spatial_yellow_tls.py	patient-aware spatial analysis	true	step 7 and GSE208253
+17	scripts/17_lymphhot_ikzf1.R	LymphHot and IKZF1 analyses	true	TCGA expression and survival roster
+18	scripts/18_scenic_patient_state.R	patient-by-state regulon analysis	true	single-cell regulon summaries
+19	archive_exploratory/historical_donor_paired_ikzf1.R	historical uncertainty source for donor-paired analysis; retained only for transparency	false	CD8 object
+20	scripts/20_hypoxia_sensitivity.R	hypoxia sensitivity	true	TCGA expression and step 13
+21	scripts/21_missingness_annotation.R	missingness and annotation summaries	true	clinical and single-cell metadata
+22	scripts/22_nonbootstrap_uncertainty.R	registered uncertainty summaries	true	steps 11 and 16
+23	scripts/23_make_figures.R	panel-asset verification and dispatch map	true	frozen source tables
+24	scripts/24_make_tables.py	supplementary table build	true	frozen source tables

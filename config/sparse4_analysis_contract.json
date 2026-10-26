@@ -1,0 +1,50 @@
+{
+  "schema": "SPARSE4_PUBLIC_ANALYSIS_CONTRACT_V1",
+  "status": "FROZEN_BEFORE_SPARSE_MODEL_FIT",
+  "inputs": {
+    "vst_matrix": {
+      "path": "data/processed/TCGA-HNSC/vst_top5000.rds",
+      "sha256": "record_after_reconstruction"
+    },
+    "historical_wgcna": {
+      "path": "data/processed/TCGA-HNSC/wgcna_results.rds",
+      "sha256": "record_after_reconstruction"
+    },
+    "survival": {
+      "path": "data/processed/TCGA-HNSC/clinical_survival.csv",
+      "sha256": "record_after_reconstruction"
+    }
+  },
+  "roster": {
+    "patients": 476,
+    "events": 220
+  },
+  "candidate_rule": {
+    "historical_members_expected": 539,
+    "eligible_members_expected": 492
+  },
+  "elastic_net": {
+    "family": "cox",
+    "alpha_grid": [
+      0.5,
+      0.75,
+      1.0
+    ],
+    "standardize": true,
+    "type_measure": "C",
+    "inner_folds": 10,
+    "selection_rule": "GLOBAL_BEST_INNER_C_MINUS_ITS_ONE_SE_THEN_FEWEST_NONZERO",
+    "tie_break_order": [
+      "FEWEST_NONZERO",
+      "LARGEST_LAMBDA",
+      "LARGEST_ALPHA",
+      "HIGHEST_CVM"
+    ]
+  },
+  "internal_validation": {
+    "outer_folds": 5,
+    "outer_repeats": 20,
+    "fold_seed": 66013
+  },
+  "output_root": "results/sparse4_construction"
+}

@@ -1,0 +1,11 @@
+
+project_root: .
+raw_data_root: data/raw
+processed_data_root: data/processed
+table_output_root: results/tables
+figure_output_root: results/figures
+log_root: logs
+model_lock: config/model_lock.json
+coefficients: config/coefficients.tsv
+training_scale: config/training_scale.tsv
+candidate_provenance: config/candidate_provenance.tsv

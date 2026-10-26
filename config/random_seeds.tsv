@@ -1,0 +1,7 @@
+module	seed_or_rule	role
+sparse4_inner_cv	outer-repeat/fold-specific seeds recorded by the production script	conditional nested cross-validation
+objective64_repeat_cv	1001:1020	20 repeated outer splits
+objective64_inner_cv	100000 + repeat*100 + outer_fold	inner tuning
+objective64_permutation_outer	400000	fixed five-fold permutation outer split
+objective64_permutations	500000 + permutation_index	499 permutations; applies only to the lambda.min procedure, not sparse4
+objective64_permutation_inner	500000 + permutation_index*100 + outer_fold	inner tuning under the corresponding permutation

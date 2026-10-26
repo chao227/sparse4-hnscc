@@ -1,0 +1,34 @@
+{
+  "schema": "CURRENT_VALIDATION_EVIDENCE_V1",
+  "model_id": "V31_HISTORICAL_YELLOW_SPARSE4_20261016",
+  "model_lock_sha256": "2acdfb0ba182a6da334b4fee07823efdba6ed2fadee7885115037cb045aad042",
+  "current_primary_internal_evaluation": {
+    "estimand": "arithmetic mean of 20 repeat-level Harrell C estimates with comparable pairs pooled only within each outer fold",
+    "estimate": 0.612901390909983,
+    "patient_delete_jackknife_95_ci": [0.576238358457985, 0.649564423361981],
+    "repeat_sd_descriptive": 0.0161875982621527,
+    "repeat_range": [0.577157279064178, 0.637596277278562],
+    "independent_units": 476,
+    "events": 220,
+    "claim_boundary": "conditional fixed-OOF evaluation; no refitting, retuning or full-pipeline uncertainty claim"
+  },
+  "secondary_ensemble_estimand": {
+    "patient_mean_20_heldout_prediction_C": 0.624308865586273,
+    "claim_boundary": "ensemble of twenty held-out predictions per patient; not performance of one future fitted model"
+  },
+  "superseded_metric": {
+    "historical_raw_cross_fold_mean_C": 0.5609084048299968,
+    "historical_raw_cross_fold_repeat_sd": 0.01767429232566784,
+    "reason": "raw linear predictors from independently fitted outer-fold models were compared across non-comparable fold scales"
+  },
+  "source_evidence": [
+    {
+      "path": "sparse4_oof_estimand_repair_20261020/results/OOF_ESTIMAND_SUMMARY.tsv",
+      "sha256": "d0f9ea840a005f2daaf96311a1fcde16a10b74f7dcc08ff8294b63035d84f654"
+    },
+    {
+      "path": "final_audit_reconciliation_20261022/supplementary_release/source_data/STable14_nonbootstrap_uncertainty__sparse4_OOF_interval.tsv",
+      "sha256": "a4dff1498eb725dc1aa6c2edb81b11ce3e123b06778ba1808b795036a643536a"
+    }
+  ]
+}

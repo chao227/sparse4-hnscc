@@ -1,0 +1,97 @@
+{
+  "schema": "V31_HISTORICAL_YELLOW_SPARSE4_VALIDATED_MODEL_LOCK_V1",
+  "status": "VALIDATED_MODEL_LOCK",
+  "model_id": "V31_HISTORICAL_YELLOW_SPARSE4_20261016",
+  "locked_utc": "2026-10-16T04:36:07Z",
+  "locked_cst": "2026-10-16T12:36:07+0800",
+  "authority": "USER_DIRECTED_PRIMARY_MODEL_FREEZE_AFTER_DIFFERENT_ROLE_NESTED_AND_EXTERNAL_AUDITS",
+  "biological_chain": "Fig1 B-cell focus -> historical B-cell-related Yellow module -> all 492 technically eligible historical-Yellow genes -> training-contained elastic-net Cox -> frozen sparse four-gene identity",
+  "independent_unit": "patient",
+  "endpoint": "overall survival: Surv(OS_time, OS_status)",
+  "roster": {
+    "patients": 476,
+    "events": 220
+  },
+  "candidate_universe": {
+    "historical_yellow_unique_symbols": 539,
+    "exact_locked_vst_intersection": 492,
+    "excluded_absent_from_locked_vst": 47,
+    "gene_alias_rescue": false,
+    "manual_gene_vector": false,
+    "univariable_cox_prescreen": false,
+    "target_gene_count": null
+  },
+  "selection_rule": {
+    "family": "cox",
+    "alpha_grid": [0.5, 0.75, 1.0],
+    "inner_folds": 10,
+    "standardize": true,
+    "measure": "Harrell_C",
+    "rule": "Across all alpha/lambda paths, define the envelope as global-best inner C minus the SE of that global-best row; among nonzero rows inside the envelope choose fewest nonzero genes, then largest lambda, largest alpha, and highest inner C.",
+    "rule_name": "CUSTOM_CROSS_ALPHA_GLOBAL_ONE_SE_ENVELOPE_MINIMUM_FEATURE",
+    "not_standard_glmnet_lambda_1se": true,
+    "selected_alpha": 0.5,
+    "selected_lambda": 0.2255341272230937
+  },
+  "genes_and_coefficients": [
+    {"gene_symbol": "CAMK2N1", "coefficient": 0.0123106633921438},
+    {"gene_symbol": "MASP1", "coefficient": -0.0175920351043370},
+    {"gene_symbol": "MIR9-3HG", "coefficient": -0.0039450538526462},
+    {"gene_symbol": "MS4A1", "coefficient": -0.0218626023395592}
+  ],
+  "score_contract": {
+    "tcga_formula": "0.0123106633921438*CAMK2N1 - 0.0175920351043370*MASP1 - 0.0039450538526462*MIR9-3HG - 0.0218626023395592*MS4A1",
+    "tcga_input_scale": "locked TCGA DESeq2-VST matrix scale",
+    "direction": "higher linear predictor denotes higher modeled hazard",
+    "primary_analysis": "continuous score",
+    "median_split": "descriptive only; no optimized cutoff",
+    "external_transport": "within-cohort gene z score weighted by gamma_j = beta_j * TCGA_training_SD_j; no refit, sign flip, gene deletion, or outcome-guided preprocessing",
+    "missing_gene_rule": "Any missing locked gene prevents FULL-score classification; partial scores are exploratory only."
+  },
+  "authoritative_artifacts": {
+    "score_table": {"path": "results/v3_1/P1_02_YELLOW_SPARSE4_MODEL_LOCK_20261016/SCORE_TABLE.tsv", "sha256": "7099bc438ee77d1fe8f82be2eb5e427e0ef1c5a5d165dff2185d83fc0aa705ea"},
+    "coefficients": {"path": "results/v3_1/P1_02_YELLOW_SPARSE4_MODEL_LOCK_20261016/COEFFICIENTS.tsv", "sha256": "d11a5d0c9b36a8e601628a3862bf598945b2b02faa10757b5e687b2caf0cf701"},
+    "training_scale": {"path": "results/v3_1/P1_02_YELLOW_SPARSE4_MODEL_LOCK_20261016/TRAINING_SCALE.tsv", "sha256": "14275eff064698299b24653599b22c6875e59c3e0dc05372b94f2b41a461bff0"},
+    "candidate_provenance": {"path": "results/v3_1/P1_02_YELLOW_SPARSE4_MODEL_LOCK_20261016/CANDIDATE_PROVENANCE.tsv", "sha256": "9fa85928a46c82f8f4f6b0be8ef37d1fff3e172e305ef36812968f60dbaf2508"},
+    "nested_patient_mean_predictions": {"path": "results/v3_1/P1_02_YELLOW_SPARSE4_MODEL_LOCK_20261016/NESTED_PATIENT_MEAN_PREDICTIONS.tsv", "sha256": "879f481218b808952d6c6fd45aa8cb98a8b8a827d8ee48d3c9dc66691c4567e7"}
+  },
+  "validation_evidence": {
+    "frozen_analysis_contract_sha256": "ab4e6aac31fadbbe03b23c038e1a2c7c867f1e10ce72a0fc3865fb9d4f30e4d1",
+    "nested_summary_sha256": "f713e9e43abd1d94d623e08abe54b1b9c30f6e14e972c9af4b343478aa96a731",
+    "different_role_nested_verdict_sha256": "c5f9890bc8db742e829d19722c39ed498582da2a8075989b2d9055b97288f90b",
+    "different_role_external_decision_sha256": "6d5c6460f41ea953c652753c8ed1bd4712caeb06f0b0f81e820dc7e75935578a",
+    "independent_nested_p0": "15_OF_15_PASS",
+    "independent_external_hard_checks": "34_OF_34_PASS",
+    "patient_mean_20_heldout_prediction_ensemble_C": 0.6243088655862726,
+    "mean_repeat_level_C": 0.5609084048299968,
+    "repeat_level_C_SD_descriptive": 0.01767429232566784,
+    "full_fit_apparent_C": 0.648172863044169
+  },
+  "mandatory_claim_boundaries": [
+    "Internal validation is conditional on the historical full-cohort Yellow membership and locked full-cohort VST realization; it is not end-to-end validation of WGCNA discovery.",
+    "The sparse rule was developed after observing the fixed21 result and in a project with historically visible external outcomes; it is transparent post-hoc redevelopment, not pristine prospective selection.",
+    "The patient-mean C is an ensemble-of-20-heldout-predictions estimand, not the performance of one future fitted model; repeat SD is descriptive, not a confidence interval.",
+    "The custom cross-alpha rule is not standard glmnet lambda.1se.",
+    "The four full-fit genes are a stable core, but outer selected model size varied from 1 to 107; do not claim the nested procedure usually selected exactly four genes.",
+    "Sparse4 was frozen for parsimony, core stability, manuscript logic and transport coverage, not because it outperformed fixed21 internally or externally.",
+    "External evidence is heterogeneous; neither of two FULL OS evaluations survived the transparent two-test BH correction; GSE159067 is PARTIAL 2/4 and exploratory only."
+  ],
+  "downstream_authorization": {
+    "authorized": true,
+    "required_input": "Only the bound MODEL_LOCK/SCORE_TABLE/COEFFICIENTS/TRAINING_SCALE artifacts may define the primary score.",
+    "prohibited": [
+      "retuning genes, coefficients, alpha, lambda, direction or preprocessing from downstream results",
+      "reading the historical FINAL_IES_SCORE_TABLE.tsv as primary",
+      "hard-coded gene vectors or fallback coefficients in downstream runners",
+      "reusing old-score numerical outputs",
+      "calling partial or proxy scores complete-model validation"
+    ]
+  },
+  "bootstrap": {
+    "primary_validation_role": false,
+    "status": "AUTHORIZED_BY_USER_BUT_DEFERRED_UNTIL_NO_EARLIER_THAN_2026-10-17T00:00:00+0800",
+    "lock_mutation_allowed": false,
+    "allowed_role": "secondary sensitivity or optimism evidence only"
+  },
+  "figures": "DEFERRED_UNTIL_ALL_ANALYSES_AND_EVIDENCE_AUDITS_FREEZE"
+}

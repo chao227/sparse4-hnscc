@@ -1,0 +1,8 @@
+
+release_version: 1.0.0-rc1
+release_date: 2026-10-26
+repository_url: https://github.com/chao227/sparse4-hnscc
+archive_doi: null
+remote_publication_status: public
+data_intensive_execution: requires_local_public_inputs
+figure_assets_status: released_with_source_mapping
